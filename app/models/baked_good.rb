@@ -8,4 +8,6 @@ class BakedGood < ActiveRecord::Base
     self.all.order(price: :desc)
   end
 
+  
+
 end
